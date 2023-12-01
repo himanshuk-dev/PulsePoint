@@ -1,13 +1,14 @@
-import Nav from "../nav";
-
 export default function DashboardLayout({
-  children, // will be a page or nested layout
+  children,
+  health,
+  fitness, // will be a page or nested layout
 }) {
   return (
     <section>
-      {/* Include shared UI here e.g. a header or sidebar */}
-      <Nav />
+      {/* className="flex flex-col items-center justify-between p-1" */}
       {children}
+      {health}
+      {fitness}
     </section>
   );
 }

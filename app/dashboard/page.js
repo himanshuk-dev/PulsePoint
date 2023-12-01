@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="text-3xl font-bold p-24 text-center">
+    <div className="text-3xl font-bold p-10 text-center bg-gray-400 text-black rounded w-100 h-100 m-5">
       Welcome to Dashboard!
     </div>
   );
