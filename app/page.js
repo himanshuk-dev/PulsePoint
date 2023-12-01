@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex max-h-screen flex-col items-center justify-between p-24 lg:p-5">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-10 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           <figure>
@@ -38,10 +38,18 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="font-mono font-bold text-center font-height-xl text-2xl lg:text-4xl lg:align-middle lg:text-center">
-        <h4>Your Personal Wellness Partner</h4>
+      <div className="font-mono flex flex-col items-center font-bold text-center font-height-xl lg:text-xl lg:text-4xl align-middle lg:align-middle lg:text-center mt-40 lg:mt-0 lg:mt-10">
+        <p className="m-5 font-size-3xl">
+          Welcome to PulsePoint! Your Personal Wellness Partner
+        </p>
+        <Image
+          src="/demo.png"
+          alt="image showing dashboard"
+          width={400}
+          height={100}
+        />
       </div>
-      <div className="mb-32 flex flex-col items-center text-center lg:align-middle  lg:text-center">
+      <div className="mb-32  flex flex-col items-center text-center lg:align-middle  lg:text-center">
         <Button />
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           Check your Wellness stats
