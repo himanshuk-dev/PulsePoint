@@ -1,11 +1,11 @@
 import React from "react";
 
-//  /posts
+// Health metrics
 
 const page = () => {
   return (
-    <div className="text-3xl font-bold p-24 text-center bg-white text-black rounded w-100 h-100 m-2">
-      Health Metrics
+    <div className="text-2xl font-bold p-5 text-black rounded ">
+      <p>Health Metrics</p>
     </div>
   );
 };
