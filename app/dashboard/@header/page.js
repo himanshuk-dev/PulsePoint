@@ -7,7 +7,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div
-      className="h-screen w-full md:w-1/5 bg-contain bg-no-repeat bg-center"
+      className=" w-full md:w-1/5 bg-contain bg-no-repeat bg-center"
       style={{ backgroundImage: "url('/info.png')" }}
     ></div>
   );
