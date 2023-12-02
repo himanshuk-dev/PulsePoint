@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PulsePoint App
+
+## Overview
+
+PulsePoint is a health tracking application designed to help users monitor and improve their wellness routine. Built with Next.js, this powerful app provides features like a fitness tracker, health metrics dashboard, and a wellness AI chatbot (coming soon).
+
+## Features
+
+- **Dashboard**: A central place to view all your health metrics at a glance.
+- **Fitness Tracker**: Log your workouts and track your progress over time.
+- **Health Metrics**: Monitor your heart rate, blood pressure, and sleep patterns.
+- **Wellness AI Chatbot**: Get personalized health tips and recommendations (coming soon).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 12.0 or later
+- npm/yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pulsepoint.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd pulsepoint
+   npm install
+   ```
+   or if you're using yarn:
+   ```bash
+   yarn install
+   ```
+
+### Running the application
+
+To run the application locally, execute:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or with yarn:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open `http://localhost:3000` with your browser to see the result.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+- **Home**: Navigate to the home page to view your health summary.
+- **Self Care Tips**: Access valuable tips on maintaining a healthy lifestyle.
+- **Track Metrics**: Input and track various health metrics daily.
+- **Chatbot**: Interact with the AI chatbot for personalized health advice (feature upcoming).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I welcome contributions! Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on how to submit pull requests.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
