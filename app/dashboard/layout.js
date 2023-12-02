@@ -8,7 +8,7 @@ export default function DashboardLayout({
   chat,
 }) {
   return (
-    <section className="font-mono flex flex-col bg-gray-200 rounded-lg items-center justify-between p-5">
+    <section className="font-mono flex flex-col bg-gray-200 rounded-lg  pt-5 pb-5">
       {children}
       <div className="flex flex-row flex-wrap lg:flex-nowrap justify-center">
         {header}
