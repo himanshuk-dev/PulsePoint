@@ -1,8 +1,10 @@
-# PulsePoint App
+# PulsePoint
+<img width="1106" alt="PulsePoint" src="https://github.com/himanshuk-dev/PulsePoint/assets/87880250/b26d41bc-79a5-4dc5-aded-77903e687e01">
+
 
 ## Overview
 
-PulsePoint is a health tracking application designed to help users monitor and improve their wellness routine. Built with Next.js, this powerful app provides features like a fitness tracker, health metrics dashboard, and a wellness AI chatbot (coming soon).
+PulsePoint is a health-tracking application designed to help users monitor and improve their wellness routine. Built with Next.js, this powerful app provides features like a fitness tracker, health metrics dashboard, and a wellness AI chatbot.
 
 ## Features
 
