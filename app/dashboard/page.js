@@ -1,6 +1,6 @@
 import React from "react";
 
-//  /posts
+// /dashboard
 
 const page = () => {
   return (

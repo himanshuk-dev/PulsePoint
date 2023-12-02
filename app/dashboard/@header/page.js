@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-//Chatbot
+//header image
 
 // fit the image to the screen
 const page = () => {
   return (
     <div
-      className=" w-full md:w-1/5 bg-contain bg-no-repeat bg-center"
+      className=" w-100 h-100 md:w-1/2 bg-contain bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/info.png')" }}
     ></div>
   );
