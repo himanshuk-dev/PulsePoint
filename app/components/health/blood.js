@@ -2,7 +2,7 @@ import React from "react";
 
 //  Blood Pressure
 
-const page = () => {
+const Blood = () => {
   return (
     <div className="text-xl font-bold p-10 text-center bg-white text-black rounded m-2">
       <p>Blood Pressure</p>
@@ -10,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Blood;

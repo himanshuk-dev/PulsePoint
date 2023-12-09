@@ -1,6 +1,12 @@
 "use client";
 
+import { useEffect } from "react";
+
 const GlobalError = ({ error, reset }) => {
+  useEffect(() => {
+    console.error(error);
+  }, [error]);
+
   return (
     <html>
       <body>
@@ -19,3 +25,5 @@ const GlobalError = ({ error, reset }) => {
     </html>
   );
 };
+
+export default GlobalError;

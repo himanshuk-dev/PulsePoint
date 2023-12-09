@@ -2,7 +2,7 @@ import React from "react";
 
 //Chatbot
 
-const page = () => {
+const Chat = () => {
   return (
     <div className=" p-10 text-center bg-white text-black rounded w-100 h-100 m-2">
       <p className="text-2xl font-bold w-100">Wellness AI ChatBot</p>
@@ -11,4 +11,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Chat;

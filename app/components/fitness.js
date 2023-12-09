@@ -1,8 +1,9 @@
+import { Figtree } from "next/font/google";
 import React from "react";
 
 //Fitness tracker
 
-const page = () => {
+const Fitness = () => {
   return (
     <div className="text-2xl font-bold p-10 text-center bg-white text-black rounded w-50 m-2">
       Fitness tracker
@@ -10,4 +11,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Fitness;
