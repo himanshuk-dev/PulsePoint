@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "./components/button";
+import LoginButton from "./components/loginButton";
 
 export default function Home() {
   return (
@@ -50,7 +50,7 @@ export default function Home() {
         />
       </div>
       <div className="mb-32  flex flex-col items-center text-center lg:align-middle  lg:text-center">
-        <Button />
+        <LoginButton />
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           Check your Wellness stats
         </p>
